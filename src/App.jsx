@@ -5,11 +5,14 @@ import './App.css';
 function App() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
+ 
+  const googleApiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+
 
   async function generateAnswer() {
     setAnswer("loading....");
     const response = await axios({
-      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=api_key",
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${googleApiKey}`,
       method: "POST",
       data: {
         contents: [
