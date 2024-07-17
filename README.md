@@ -2,18 +2,18 @@
 
 # AI-Chat App
 
-An AI-powered chat application using the Google Gemini API, built with React.js, HTML, Tailwind CSS, and CSS.
+An AI-powered chat application using the Generative Language Client API, built with React.js, HTML, Tailwind CSS, and CSS.
 
 
 
+The AI-Chat App leverages the Google Gemini API to provide intelligent and context-aware chat interactions. <br>
 
-## Introduction
 
-The AI-Chat App leverages the Google Gemini API to provide intelligent and context-aware chat interactions. This application demonstrates the capabilities of modern AI and showcases the integration of advanced APIs with a sleek and responsive frontend.
+This application demonstrates the capabilities of modern AI and showcases the integration of advanced APIs with a sleek and responsive frontend.
 
 ## Features
 
-- **Real-Time Chat:** Engage in real-time conversations with the AI.
+- **Real-Time Chat:** Engage in real-time chat with the AI.
 - **Responsive Design:** Ensures a seamless experience across all devices.
 - **Intuitive UI:** Clean and user-friendly interface.
 - **API Integration:** Utilizes the Google Gemini API for advanced AI interactions.
